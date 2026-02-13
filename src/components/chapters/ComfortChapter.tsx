@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const COMFORT_IMAGES = [

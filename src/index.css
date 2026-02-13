@@ -46,6 +46,11 @@
     --gold: 42 90% 55%;
     --gold-foreground: 42 90% 15%;
 
+    /* Kawaii Palette */
+    --kawaii-pink: 325 100% 97%;
+    --kawaii-pink-deep: 325 80% 90%;
+    --kawaii-peach: 20 100% 95%;
+    
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -116,5 +121,34 @@
   }
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
+  }
+
+  .bg-kawaii {
+    background-color: hsl(var(--kawaii-pink));
+    background-image: 
+      radial-gradient(circle at 10% 20%, hsla(var(--kawaii-pink-deep), 0.5) 0%, transparent 20%),
+      radial-gradient(circle at 90% 80%, hsla(var(--kawaii-peach), 0.5) 0%, transparent 20%);
+  }
+
+  .animate-wiggle {
+    animation: wiggle 0.5s ease-in-out infinite;
+  }
+
+  .animate-bounce-soft {
+    animation: bounce-soft 2s ease-in-out infinite;
+  }
+
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+  }
+
+  @keyframes bounce-soft {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-10px) scale(1.05); }
+  }
+  
+  .shadow-kawaii {
+    box-shadow: 0 10px 25px -5px rgba(255, 182, 193, 0.3), 0 8px 10px -6px rgba(255, 182, 193, 0.3);
   }
 }

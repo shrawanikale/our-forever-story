@@ -154,7 +154,7 @@ const ForeverMoment = () => {
                 transition={{ duration: 2, delay: Math.random() * 0.5 }}
                 className="absolute left-1/2 top-1/2 text-lg"
               >
-                {["✨", "💛", "🌟", "💍", "💕"][i % 5]}
+                {["✨", "💛", "🌟", "💍", "💕", "🌸", "🐰"][i % 7]}
               </motion.div>
             ))}
 
