@@ -32,7 +32,7 @@ const HeartParticles = () => {
             repeat: Infinity,
             delay: i * 0.2
           }}
-          className="absolute left-1/2 top-1/2 text-red-500 text-xl"
+          className="absolute left-1/2 top-1/2 text-primary text-xl"
         >
           ❤️
         </motion.div>
@@ -89,7 +89,7 @@ const MemoryGrid = () => {
               }}
               onDoubleClick={() => {
                 toast.success("I love you more than words can say! ❤️", {
-                  icon: "❤️",
+                  icon: "💖",
                   duration: 3000,
                 });
               }}

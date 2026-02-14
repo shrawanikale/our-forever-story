@@ -13,7 +13,7 @@ const QUIZ_QUESTIONS = [
         id: 1,
         question: "Who fell in love first?",
         options: ["You", "Me", "At the same time (but I’ll deny it)", "It just happened magically"],
-        response: "Correct. It was destiny. 🐰❤️"
+        response: "Correct. It was destiny. 🐰💖"
     },
     {
         id: 2,
@@ -300,7 +300,7 @@ const PlayfulChapter = () => {
                                                 onClick={() => collectHeart(heart.id)}
                                                 transition={{ duration: 3, ease: "linear" }}
                                             >
-                                                <Heart fill="#FF0000" className="text-red-600 w-12 h-12 group-hover:scale-150 transition-transform" />
+                                                <Heart fill="#FF69B4" className="text-kawaii-pink-deep w-12 h-12 group-hover:scale-150 transition-transform" />
                                             </motion.button>
                                         ))}
                                     </AnimatePresence>

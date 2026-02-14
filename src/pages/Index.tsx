@@ -81,6 +81,19 @@ const Index = () => {
           <MusicPlayer />
           <CuteMascot isProposalPhase={level >= 13} />
 
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            className="fixed top-6 left-6 z-[60] flex items-center gap-2 bg-white/20 backdrop-blur-md p-2 rounded-full border border-white/30 shadow-sm md:top-8 md:left-8"
+          >
+            <div className="bg-red-500 p-2 rounded-full shadow-lg animate-pulse-glow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              </svg>
+            </div>
+            <span className="hidden md:block font-serif text-sm font-bold text-primary pr-2">Our Forever Story</span>
+          </motion.div>
+
           <div className="relative">
             {/* Level 1: Intro Story */}
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
@@ -132,7 +145,7 @@ const Index = () => {
                 key={activePath}
                 className="py-20 text-center bg-accent/20"
               >
-                <p className={`font-handwriting text-3xl px-6 ${activePath === 'emotional' ? 'text-red-600' : 'text-primary'}`}>
+                <p className="font-handwriting text-3xl text-primary px-6">
                   {activePath === 'cute' && "Every little smile of yours is a treasure... ✨"}
                   {activePath === 'funny' && "Life with you is a constant adventure of laughter... 😂"}
                   {activePath === 'emotional' && "You've touched my soul in ways I can't describe... ❤️"}

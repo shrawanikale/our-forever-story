@@ -9,7 +9,7 @@ const BranchingMemory = ({ onChoice }: BranchingMemoryProps) => {
     const choices = [
         { id: 'cute', label: 'Cute', icon: Sparkles, color: 'bg-blush' },
         { id: 'funny', label: 'Funny', icon: Laugh, color: 'bg-secondary' },
-        { id: 'emotional', label: 'Emotional', icon: Heart, color: 'bg-red-500' },
+        { id: 'emotional', label: 'Emotional', icon: Heart, color: 'bg-primary' },
     ] as const;
 
     return (
