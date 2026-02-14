@@ -32,8 +32,8 @@ const CuteBreakSection = ({ onComplete }: CuteBreakSectionProps) => {
                     className="mb-8 flex justify-center"
                 >
                     <img
-                        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJidHd6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/l41lX6jX0Z6r4U2U/giphy.gif"
-                        alt="Bunny with Heart"
+                        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRraXp5bmR6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/MDJ9IbxxvDUQM/giphy.gif"
+                        alt="Cute Mascot"
                         className="w-48 h-48 object-contain"
                     />
                 </motion.div>

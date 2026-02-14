@@ -204,10 +204,6 @@ const PlayfulChapter = () => {
                                             <p className="text-xl font-serif italic text-primary">
                                                 {QUIZ_QUESTIONS[quizStep].response}
                                             </p>
-                                            <img
-                                                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRraXp5bmR6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/3o7TKVUn7iM8FMEU24/giphy.gif"
-                                                className="w-16 h-16"
-                                            />
                                         </motion.div>
                                     )}
                                 </AnimatePresence>
@@ -223,11 +219,6 @@ const PlayfulChapter = () => {
                             animate={{ opacity: 1 }}
                             className="text-center"
                         >
-                            <motion.img
-                                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRidHd6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/l41lX6jX0Z6r4U2U/giphy.gif"
-                                className="w-32 h-32 mx-auto mb-8 cursor-pointer"
-                                onClick={triggerHug}
-                            />
                             <h1 className="text-4xl md:text-5xl font-serif text-primary mb-6 font-bold">
                                 The Unfiltered Truth
                             </h1>

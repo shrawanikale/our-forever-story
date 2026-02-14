@@ -8,8 +8,8 @@ const MEMORY_IMAGES = [
   { src: "/IMG-20251116-WA0576.jpg", caption: "Where it all started" },
   { src: "/IMG-20251116-WA0592.jpg", caption: "Golden hour together" },
   { src: "/IMG-20251116-WA0610.jpg", caption: "Adventures with you" },
-  { src: "/IMG-20251116-WA0666.jpg", caption: "Quiet moments" },
-  { src: "/IMG-20251116-WA0670.jpg", caption: "Our favorite place" },
+  { src: "/image.png", caption: "Safe in your hands" },
+  { src: "/IMG-20251116-WA0670.jpg", caption: "A beautiful day in our lives 🌸" },
   { src: "/IMG-20251116-WA0675.jpg", caption: "Under the same sky" },
 ];
 

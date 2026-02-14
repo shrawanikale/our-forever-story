@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const POLAROID_IMAGES = [
-  { src: "/IMG-20251116-WA0684.jpg", caption: "Our first selfie.", rotation: -3 },
+  { src: "/IMG-20251116-WA0684.jpg", caption: "The moment that started it all... ✨", rotation: -3 },
   { src: "/IMG-20251116-WA0687.jpg", caption: "That random perfect day.", rotation: 2 },
   { src: "/IMG-20251119-WA0013.jpg", caption: "Us being us.", rotation: -2 },
   { src: "/IMG-20251119-WA0014.jpg", caption: "Laughing at nothing.", rotation: 4 },

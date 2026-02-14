@@ -45,18 +45,7 @@ const HeroChapter = () => {
         <p className="text-cream/60 font-serif italic text-sm mt-2">Mwah! ✨</p>
       </motion.div>
 
-      <motion.div
-        initial={{ x: 100, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ delay: 2.8, duration: 1 }}
-        className="absolute top-20 right-10 z-30 pointer-events-none opacity-50"
-      >
-        <img
-          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRraXp5bmR6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/3o7TKVUn7iM8FMEU24/giphy.gif"
-          className="w-32 h-32"
-          alt="Cute Bunny Wave"
-        />
-      </motion.div>
+      {/* Wave ornament removed */}
 
       {/* Content */}
       <div className="relative z-20 mx-auto max-w-3xl px-6 text-center">
