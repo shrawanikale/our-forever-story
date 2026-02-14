@@ -14,7 +14,7 @@ const CuteBreakSection = ({ onComplete }: CuteBreakSectionProps) => {
                 className="max-w-xl bg-white/80 backdrop-blur-md p-10 rounded-[3rem] shadow-kawaii border-4 border-kawaii-pink-deep relative overflow-hidden"
             >
                 {/* Floating Hearts background decoration */}
-                <div className="absolute top-4 left-4 text-4xl animate-bounce-soft">💖</div>
+                <div className="absolute top-4 left-4 text-4xl animate-bounce-soft">❤️</div>
                 <div className="absolute bottom-4 right-4 text-4xl animate-bounce-soft delay-500">✨</div>
                 <div className="absolute top-20 right-10 text-2xl animate-spin-slow">⭐</div>
 

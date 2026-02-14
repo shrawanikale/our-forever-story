@@ -103,7 +103,7 @@ const ForeverMoment = () => {
                 onClick={() => setAnswered(true)}
                 className="animate-pulse-glow rounded-full bg-gold px-12 py-4 font-serif text-xl font-bold text-gold-foreground shadow-2xl transition-all hover:scale-110"
               >
-                <Heart className="mr-2 inline h-5 w-5" />
+                <Heart className="mr-2 inline h-5 w-5 fill-red-600 text-red-600" />
                 Will you build forever with me?
               </button>
               <button
@@ -124,7 +124,7 @@ const ForeverMoment = () => {
                 animate={{ opacity: 1 }}
                 className="mt-6 font-handwriting text-lg text-cream/60"
               >
-                I'll keep choosing you… until you choose forever too. 💕
+                I'll keep choosing you… until you choose forever too. ❤️
               </motion.p>
             )}
           </motion.div>
@@ -154,7 +154,7 @@ const ForeverMoment = () => {
                 transition={{ duration: 2, delay: Math.random() * 0.5 }}
                 className="absolute left-1/2 top-1/2 text-lg"
               >
-                {["✨", "💛", "🌟", "💍", "💕", "🌸", "🐰"][i % 7]}
+                {["✨", "❤️", "🌟", "💍", "❤️", "🌸", "🐰"][i % 7]}
               </motion.div>
             ))}
 

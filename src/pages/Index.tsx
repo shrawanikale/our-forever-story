@@ -132,7 +132,7 @@ const Index = () => {
                 key={activePath}
                 className="py-20 text-center bg-accent/20"
               >
-                <p className="font-handwriting text-3xl text-primary px-6">
+                <p className={`font-handwriting text-3xl px-6 ${activePath === 'emotional' ? 'text-red-600' : 'text-primary'}`}>
                   {activePath === 'cute' && "Every little smile of yours is a treasure... ✨"}
                   {activePath === 'funny' && "Life with you is a constant adventure of laughter... 😂"}
                   {activePath === 'emotional' && "You've touched my soul in ways I can't describe... ❤️"}

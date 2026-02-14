@@ -38,7 +38,6 @@ const CuteMascot = ({ variant = 'wave', isProposalPhase = false }: CuteMascotPro
                         <motion.div
                             animate={{
                                 y: [0, -10, 0],
-                                rotate: [0, 5, -5, 0]
                             }}
                             transition={{
                                 duration: 3,
@@ -59,7 +58,7 @@ const CuteMascot = ({ variant = 'wave', isProposalPhase = false }: CuteMascotPro
                             whileHover={{ opacity: 1, y: 0 }}
                             className="absolute -top-12 right-0 bg-white px-4 py-2 rounded-2xl shadow-kawaii border-2 border-kawaii-pink text-sm font-serif italic text-primary whitespace-nowrap"
                         >
-                            {isProposalPhase ? "So nervous... 🥺" : "Hugging you tightly! 💖"}
+                            {isProposalPhase ? "So nervous... 🥺" : "Hugging you tightly! ❤️"}
                         </motion.div>
                     </div>
                 </motion.div>

@@ -32,7 +32,7 @@ const HeartParticles = () => {
             repeat: Infinity,
             delay: i * 0.2
           }}
-          className="absolute left-1/2 top-1/2 text-primary text-xl"
+          className="absolute left-1/2 top-1/2 text-red-500 text-xl"
         >
           ❤️
         </motion.div>
@@ -52,13 +52,6 @@ const MemoryGrid = () => {
       id="chapter-2"
       className="relative min-h-screen bg-background py-20 md:py-32 overflow-hidden"
     >
-      {/* Decorative Bunny floating at bottom */}
-      <motion.img
-        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRraXp5bmR6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/3o7TKVUn7iM8FMEU24/giphy.gif"
-        className="absolute bottom-4 right-4 w-24 h-24 opacity-30 pointer-events-none"
-        animate={{ y: [0, -20, 0] }}
-        transition={{ duration: 3, repeat: Infinity }}
-      />
 
       <div className="mx-auto max-w-6xl px-6 relative z-10">
         <motion.div
@@ -96,7 +89,7 @@ const MemoryGrid = () => {
               }}
               onDoubleClick={() => {
                 toast.success("I love you more than words can say! ❤️", {
-                  icon: "💖",
+                  icon: "❤️",
                   duration: 3000,
                 });
               }}
