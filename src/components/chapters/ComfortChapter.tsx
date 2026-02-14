@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const COMFORT_IMAGES = [
-  { src: "https://images.unsplash.com/photo-1501901609772-df0848060b33?w=800&h=600&fit=crop&auto=format&q=80", caption: "You became my safe place." },
-  { src: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&h=600&fit=crop&auto=format&q=80", caption: "With you, even silence feels peaceful." },
-  { src: "https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=800&h=600&fit=crop&auto=format&q=80", caption: "Home is wherever you are." },
+  { src: "/IMG-20251116-WA0670.jpg", caption: "You became my safe place." },
+  { src: "/IMG-20251116-WA0675.jpg", caption: "With you, even silence feels peaceful." },
+  { src: "/IMG-20251116-WA0684.jpg", caption: "Home is wherever you are." },
 ];
 
 const ComfortChapter = () => {

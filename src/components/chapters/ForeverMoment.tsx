@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Heart } from "lucide-react";
 
-const FINAL_IMAGE = "https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=1920&h=1080&fit=crop&auto=format&q=80";
+const FINAL_IMAGE = "/IMG-20260213-WA0033.jpg";
 
 const ForeverMoment = () => {
   const { ref, isVisible } = useScrollReveal(0.1);

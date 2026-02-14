@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const PROMISE_IMAGES = [
-  "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=600&h=400&fit=crop&auto=format&q=80",
-  "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?w=600&h=400&fit=crop&auto=format&q=80",
+  "/IMG-20251116-WA0687.jpg",
+  "/IMG-20251119-WA0013.jpg",
 ];
 
 const PromiseChapter = () => {

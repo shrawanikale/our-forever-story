@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { ChevronDown } from "lucide-react";
 
-const HERO_IMAGE = "https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=1920&h=1080&fit=crop&auto=format&q=80";
+const HERO_IMAGE = "/IMG-20260213-WA0033.jpg";
 
 const HeroChapter = () => {
   const { ref, isVisible } = useScrollReveal(0.1);

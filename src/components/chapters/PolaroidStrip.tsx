@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const POLAROID_IMAGES = [
-  { src: "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?w=400&h=500&fit=crop&auto=format&q=80", caption: "Our first selfie.", rotation: -3 },
-  { src: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=400&h=500&fit=crop&auto=format&q=80", caption: "That random perfect day.", rotation: 2 },
-  { src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=500&fit=crop&auto=format&q=80", caption: "Us being us.", rotation: -2 },
-  { src: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=500&fit=crop&auto=format&q=80", caption: "Laughing at nothing.", rotation: 4 },
+  { src: "/IMG-20251116-WA0684.jpg", caption: "Our first selfie.", rotation: -3 },
+  { src: "/IMG-20251116-WA0687.jpg", caption: "That random perfect day.", rotation: 2 },
+  { src: "/IMG-20251119-WA0013.jpg", caption: "Us being us.", rotation: -2 },
+  { src: "/IMG-20251119-WA0014.jpg", caption: "Laughing at nothing.", rotation: 4 },
 ];
 
 const PolaroidStrip = () => {

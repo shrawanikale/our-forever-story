@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const SLIDER_IMAGES = [
-  "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=1920&h=1080&fit=crop&auto=format&q=80",
-  "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=1920&h=1080&fit=crop&auto=format&q=80",
-  "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=1920&h=1080&fit=crop&auto=format&q=80",
-  "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1920&h=1080&fit=crop&auto=format&q=80",
+  "/IMG-20260213-WA0033.jpg",
+  "/IMG-20251119-WA0014.jpg",
+  "/IMG-20251119-WA0013.jpg",
+  "/IMG-20251116-WA0610.jpg",
 ];
 
 const CinematicSlider = () => {
@@ -67,9 +67,8 @@ const CinematicSlider = () => {
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className={`h-2 rounded-full transition-all duration-300 ${
-              i === current ? "w-8 bg-cream" : "w-2 bg-cream/40"
-            }`}
+            className={`h-2 rounded-full transition-all duration-300 ${i === current ? "w-8 bg-cream" : "w-2 bg-cream/40"
+              }`}
           />
         ))}
       </div>

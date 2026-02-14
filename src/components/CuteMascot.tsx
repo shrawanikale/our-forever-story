@@ -16,8 +16,8 @@ const CuteMascot = ({ variant = 'wave', isProposalPhase = false }: CuteMascotPro
     }, []);
 
     const getGif = () => {
-        if (isProposalPhase) return "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRraXp5bmR6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/MDJ9IbxxvDUQM/giphy.gif"; // Kiss/Blush
-        return "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRraXp5bmR6b3B6M3R6b3B6M3R6b3B6M3R6b3B6M3R6b3B6JnBzPTEmcmVfcmFkaXVzPTA/3o7TKVUn7iM8FMEU24/giphy.gif"; // Wave
+        // High quality "Sending you lots of hugs!" Milk & Mocha hug
+        return "https://media.tenor.com/un8p3fHbxRAAAAAj/milk-and-mocha-hug.gif";
     };
 
     return (
@@ -59,7 +59,7 @@ const CuteMascot = ({ variant = 'wave', isProposalPhase = false }: CuteMascotPro
                             whileHover={{ opacity: 1, y: 0 }}
                             className="absolute -top-12 right-0 bg-white px-4 py-2 rounded-2xl shadow-kawaii border-2 border-kawaii-pink text-sm font-serif italic text-primary whitespace-nowrap"
                         >
-                            {isProposalPhase ? "So nervous... 🥺" : "I'm rooting for you! ✨"}
+                            {isProposalPhase ? "So nervous... 🥺" : "Hugging you tightly! 💖"}
                         </motion.div>
                     </div>
                 </motion.div>

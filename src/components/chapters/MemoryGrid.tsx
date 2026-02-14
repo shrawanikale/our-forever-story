@@ -5,12 +5,12 @@ import Lightbox from "@/components/Lightbox";
 import { toast } from "sonner";
 
 const MEMORY_IMAGES = [
-  { src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600&h=400&fit=crop&auto=format&q=80", caption: "Where it all started" },
-  { src: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=600&h=400&fit=crop&auto=format&q=80", caption: "Golden hour together" },
-  { src: "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=600&h=400&fit=crop&auto=format&q=80", caption: "Adventures with you" },
-  { src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&h=400&fit=crop&auto=format&q=80", caption: "Quiet moments" },
-  { src: "https://images.unsplash.com/photo-1501901609772-df0848060b33?w=600&h=400&fit=crop&auto=format&q=80", caption: "Our favorite place" },
-  { src: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=600&h=400&fit=crop&auto=format&q=80", caption: "Under the same sky" },
+  { src: "/IMG-20251116-WA0576.jpg", caption: "Where it all started" },
+  { src: "/IMG-20251116-WA0592.jpg", caption: "Golden hour together" },
+  { src: "/IMG-20251116-WA0610.jpg", caption: "Adventures with you" },
+  { src: "/IMG-20251116-WA0666.jpg", caption: "Quiet moments" },
+  { src: "/IMG-20251116-WA0670.jpg", caption: "Our favorite place" },
+  { src: "/IMG-20251116-WA0675.jpg", caption: "Under the same sky" },
 ];
 
 const HeartParticles = () => {
